@@ -1,0 +1,88 @@
+
+ROM used:   10382/32768 (32%)
+            10382/32768 (32%) including unused fragments
+
+            2.6 Average locations per line
+            18.7 Average locations per statement
+
+RAM used:   28/2048 (1%) at main() level
+            107/2048 (5%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  273   170  31  main.c
+  837     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18f4550.h
+  456    84  15  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c
+  135    43   8  kbd1.c
+ 2229   257  46  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+----- -----
+ 3930   554 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0    1             @delay_ms1
+0     62   0    3   596  5.9  lcd_read_byte
+0     12   0    0    59  4.2  lcd_read_nibble
+0     24   0    1   179  3.3  lcd_send_nibble
+0     58   0    3   460  4.7  lcd_send_byte
+0    120   1    6   814  7.2  lcd_init
+0     34   0    4   208  6.3  lcd_gotoxy
+0     80   0    1   354  4.7  lcd_putc
+0     32   0    0             @const685
+0      4   0    0     3  0.0  kbd_init
+0    190   1    4  5872 10.1  kbd_getc
+0     34   0    0             @goto10681
+0    832   4   20  1121 10.1  CEIL_FLOOR
+0    118   1   10             @FLT
+0     56   0    4             @SFTOI
+0     54   0    2             @ITOF
+0    242   1   11             @MULFF
+0    618   3   16             @ADDFF
+0     24   0    4    43  2.1  floor
+0     26   0    4    44  1.9  ceil
+0    350   2   16   259  6.9  fmod
+0    346   2   14             @DIVFF
+0    978   5   22  1071  8.0  exp
+0     72   0    2             @SITOF
+0    860   4   25   979 10.0  log
+0    732   4   12   556  7.5  pow
+0    854   4   46  1146  9.9  cos
+0     74   0    8    44  1.9  sin
+0    156   1   12   176  4.3  tan
+0   2414  12    6  8607  7.9  MAIN
+0     16   0    0             @const851
+0     32   0    2             @PSTRINGC_672
+0     40   0    3             @DIV88
+0    170   1    6             @PRINTF_D_672
+0      8   0    0             @const861
+0      4   0    0             @const865
+0     64   0    5             @FTOSD
+0    142   1   13             @DIV3232
+0    386   2   13             @PRINTF_L32D_672FPFPF
+0      4   0    0             @const877
+0      4   0    0             @const881
+0     12   0    0             @const885
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               20
+    Statements              554
+    Comments                548
+    Volume (V)              32520
+    Difficulty (D)          114.1
+    Effort to implement (E) 3711007
+    Time to implement (T)   57 hours, 16 minutes
+    Est Delivered Bugs (B)  8
+    Cyclomatic Complexity   71
+    Maintainability (MI)    126
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  10378  22386  
+
+
+

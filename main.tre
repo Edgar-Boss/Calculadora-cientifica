@@ -1,0 +1,288 @@
+ÀÄmain
+   ÀÄMAIN  0/2414  Ram=6
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄlcd_init  0/120  Ram=6
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄlcd_send_nibble  0/24  Ram=1
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄlcd_send_nibble  0/24  Ram=1
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄlcd_send_byte  0/58  Ram=3
+      ³     ÃÄlcd_read_byte  0/62  Ram=3
+      ³     ³  ÃÄlcd_read_nibble  0/12  Ram=0
+      ³     ³  ÀÄlcd_read_nibble  0/12  Ram=0
+      ³     ÃÄlcd_send_nibble  0/24  Ram=1
+      ³     ÀÄlcd_send_nibble  0/24  Ram=1
+      ÃÄkbd_init  0/4  Ram=0
+      ÃÄ@PSTRINGC_672  0/32  Ram=2
+      ³  ÀÄlcd_putc  0/80  Ram=1
+      ³     ÃÄlcd_gotoxy  0/34  Ram=4
+      ³     ³  ÀÄlcd_send_byte  0/58  Ram=3
+      ³     ³     ÀÄ*
+      ³     ÃÄlcd_send_byte  0/58  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@delay_ms1  0/40  Ram=1
+      ³     ÃÄlcd_gotoxy  0/34  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄlcd_send_byte  0/58  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÀÄlcd_send_byte  0/58  Ram=3
+      ³        ÀÄ*
+      ÃÄkbd_getc  0/190  Ram=4
+      ³  ÃÄ@goto10681  0/34  Ram=0
+      ³  ÀÄ@const685  0/32  Ram=0
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@ITOF  0/54  Ram=2
+      ÃÄ@ADDFF  0/618  Ram=16
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_D_672  0/170  Ram=6
+      ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ÃÄlcd_putc  0/80  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_putc  0/80  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_putc  0/80  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄlcd_putc  0/80  Ram=1
+      ³     ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄ@FLT  0/118  Ram=10
+      ÃÄlcd_putc  0/80  Ram=1
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC_672  0/32  Ram=2
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄlcd_putc  0/80  Ram=1
+      ³  ÀÄ*
+      ÃÄkbd_getc  0/190  Ram=4
+      ³  ÀÄ*
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@ITOF  0/54  Ram=2
+      ÃÄ@ADDFF  0/618  Ram=16
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_D_672  0/170  Ram=6
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄlcd_putc  0/80  Ram=1
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC_672  0/32  Ram=2
+      ³  ÀÄ*
+      ÃÄkbd_getc  0/190  Ram=4
+      ³  ÀÄ*
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@ITOF  0/54  Ram=2
+      ÃÄ@ADDFF  0/618  Ram=16
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_D_672  0/170  Ram=6
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@DIVFF  0/346  Ram=14
+      ÃÄsin  0/74  Ram=8
+      ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ÀÄcos  0/854  Ram=46
+      ³     ÃÄ@FLT  0/118  Ram=10
+      ³     ÃÄ@MULFF  0/242  Ram=11
+      ³     ÃÄ@SFTOI  0/56  Ram=4
+      ³     ÃÄ@MULFF  0/242  Ram=11
+      ³     ÃÄ@ITOF  0/54  Ram=2
+      ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³     ÃÄ@MULFF  0/242  Ram=11
+      ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³     ÃÄ@MULFF  0/242  Ram=11
+      ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³     ÃÄ@MULFF  0/242  Ram=11
+      ³     ÃÄ@MULFF  0/242  Ram=11
+      ³     ÃÄ@MULFF  0/242  Ram=11
+      ³     ÃÄ@MULFF  0/242  Ram=11
+      ³     ÀÄ@ADDFF  0/618  Ram=16
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_L32D_672FPFPF  0/386  Ram=13
+      ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ÃÄ@FTOSD  0/64  Ram=5
+      ³  ÃÄ@DIV3232  0/142  Ram=13
+      ³  ÃÄlcd_putc  0/80  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_putc  0/80  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_putc  0/80  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_putc  0/80  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄ@DIV3232  0/142  Ram=13
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄlcd_putc  0/80  Ram=1
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC_672  0/32  Ram=2
+      ³  ÀÄ*
+      ÃÄkbd_getc  0/190  Ram=4
+      ³  ÀÄ*
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@ITOF  0/54  Ram=2
+      ÃÄ@ADDFF  0/618  Ram=16
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_D_672  0/170  Ram=6
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@DIVFF  0/346  Ram=14
+      ÃÄcos  0/854  Ram=46
+      ³  ÀÄ*
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_L32D_672FPFPF  0/386  Ram=13
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄlcd_putc  0/80  Ram=1
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC_672  0/32  Ram=2
+      ³  ÀÄ*
+      ÃÄkbd_getc  0/190  Ram=4
+      ³  ÀÄ*
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@ITOF  0/54  Ram=2
+      ÃÄ@ADDFF  0/618  Ram=16
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_D_672  0/170  Ram=6
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@DIVFF  0/346  Ram=14
+      ÃÄtan  0/156  Ram=12
+      ³  ÃÄcos  0/854  Ram=46
+      ³  ³  ÀÄ*
+      ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ÃÄsin  0/74  Ram=8
+      ³  ³  ÀÄ*
+      ³  ÀÄ@DIVFF  0/346  Ram=14
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_L32D_672FPFPF  0/386  Ram=13
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄlcd_putc  0/80  Ram=1
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC_672  0/32  Ram=2
+      ³  ÀÄ*
+      ÃÄkbd_getc  0/190  Ram=4
+      ³  ÀÄ*
+      ÃÄ@MULFF  0/242  Ram=11
+      ÃÄ@ITOF  0/54  Ram=2
+      ÃÄ@ADDFF  0/618  Ram=16
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_D_672  0/170  Ram=6
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄpow  0/732  Ram=12
+      ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ÃÄfmod  0/350  Ram=16
+      ³  ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ³  ÃÄ@DIVFF  0/346  Ram=14
+      ³  ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ³  ÃÄ@DIVFF  0/346  Ram=14
+      ³  ³  ÃÄceil  0/26  Ram=4
+      ³  ³  ³  ÀÄCEIL_FLOOR  0/832  Ram=20
+      ³  ³  ³     ÃÄ@FLT  0/118  Ram=10
+      ³  ³  ³     ÃÄ@FLT  0/118  Ram=10
+      ³  ³  ³     ÃÄ@SFTOI  0/56  Ram=4
+      ³  ³  ³     ÃÄ@ITOF  0/54  Ram=2
+      ³  ³  ³     ÃÄ@FLT  0/118  Ram=10
+      ³  ³  ³     ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ³     ÃÄ@SFTOI  0/56  Ram=4
+      ³  ³  ³     ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ³     ÃÄ@ITOF  0/54  Ram=2
+      ³  ³  ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ³     ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ³     ÃÄ@ITOF  0/54  Ram=2
+      ³  ³  ³     ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ³     ÃÄ@SFTOI  0/56  Ram=4
+      ³  ³  ³     ÃÄ@ITOF  0/54  Ram=2
+      ³  ³  ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ³     ÃÄ@SFTOI  0/56  Ram=4
+      ³  ³  ³     ÃÄ@ITOF  0/54  Ram=2
+      ³  ³  ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ³     ÃÄ@FLT  0/118  Ram=10
+      ³  ³  ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ³     ÀÄ@FLT  0/118  Ram=10
+      ³  ³  ÃÄ@DIVFF  0/346  Ram=14
+      ³  ³  ÃÄfloor  0/24  Ram=4
+      ³  ³  ³  ÀÄCEIL_FLOOR  0/832  Ram=20
+      ³  ³  ³     ÀÄ*
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÀÄ@ADDFF  0/618  Ram=16
+      ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ÃÄfmod  0/350  Ram=16
+      ³  ³  ÀÄ*
+      ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ÃÄlog  0/860  Ram=25
+      ³  ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@DIVFF  0/346  Ram=14
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@DIVFF  0/346  Ram=14
+      ³  ³  ÃÄ@SITOF  0/72  Ram=2
+      ³  ³  ÃÄ@SITOF  0/72  Ram=2
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÀÄ@ADDFF  0/618  Ram=16
+      ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ÃÄexp  0/978  Ram=22
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@SFTOI  0/56  Ram=4
+      ³  ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@SITOF  0/72  Ram=2
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ³  ÀÄ@DIVFF  0/346  Ram=14
+      ³  ÃÄlog  0/860  Ram=25
+      ³  ³  ÀÄ*
+      ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ÃÄexp  0/978  Ram=22
+      ³  ³  ÀÄ*
+      ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ÃÄfmod  0/350  Ram=16
+      ³  ³  ÀÄ*
+      ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ÃÄ@FLT  0/118  Ram=10
+      ³  ÃÄlog  0/860  Ram=25
+      ³  ³  ÀÄ*
+      ³  ÃÄ@MULFF  0/242  Ram=11
+      ³  ÀÄexp  0/978  Ram=22
+      ³     ÀÄ*
+      ÃÄlcd_gotoxy  0/34  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PRINTF_L32D_672FPFPF  0/386  Ram=13
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÀÄlcd_putc  0/80  Ram=1
+         ÀÄ*

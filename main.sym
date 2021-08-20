@@ -1,0 +1,274 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     kbd_getc.kbd_call_count
+005.0   kbd_getc.kbd_down
+006     kbd_getc.last_key
+007     kbd_getc.col
+008     x
+009     y
+00A-00D A
+00E-011 B
+012-015 c
+016     MAIN.K
+016-019 atan2.y
+017     MAIN.t
+018     MAIN.ban
+019-01C tan.x
+019-01C @PRINTF_L32D_672FPFPF.P1
+019     lcd_init.i
+019     @PRINTF_D_672.P1
+019     kbd_getc.kchar
+019-01C pow.x
+019     MAIN.@SCRATCH1
+019     @PSTRINGC_672.@SCRATCH1
+01A     @PRINTF_D_672.P1
+01A-01D atan2.x
+01A-01D lcd_init.LCD_INIT_STRING
+01A     kbd_getc.row
+01A     MAIN.@SCRATCH2
+01A     @PSTRINGC_672.@SCRATCH2
+01B     kbd_getc.@SCRATCH1
+01B     MAIN.@SCRATCH3
+01B     @PRINTF_D_672.@SCRATCH1
+01C     kbd_getc.@SCRATCH2
+01C     MAIN.@SCRATCH4
+01C     @PRINTF_D_672.@SCRATCH2
+01D-020 pow.y
+01D-020 tan.c
+01D     @PRINTF_L32D_672FPFPF.P1
+01D     @PRINTF_D_672.@SCRATCH3
+01E-021 atan2.z
+01E     lcd_init.@SCRATCH1
+01E     @PRINTF_D_672.@SCRATCH4
+01E     @PRINTF_L32D_672FPFPF.@SCRATCH1
+01F     @DIV88.P1
+01F     @PRINTF_L32D_672FPFPF.@SCRATCH2
+020     @DIV88.P1
+020     @PRINTF_L32D_672FPFPF.@SCRATCH3
+021-024 tan.s
+021-024 fmod.x
+021     pow.@SCRATCH1
+021     @DIV88.@SCRATCH1
+021     @PRINTF_L32D_672FPFPF.@SCRATCH4
+022.0   atan2.sign
+022     pow.@SCRATCH2
+022     @PRINTF_L32D_672FPFPF.@SCRATCH5
+023     atan2.quad
+023     pow.@SCRATCH3
+023     @PRINTF_L32D_672FPFPF.@SCRATCH6
+024     pow.@SCRATCH4
+024     @PRINTF_L32D_672FPFPF.@SCRATCH7
+025-028 exp.x
+025-028 log.x
+025-028 fmod.y
+025-028 sin.x
+025     @PRINTF_L32D_672FPFPF.@SCRATCH8
+026     lcd_putc.c
+026-029 @DIV3232.P1
+026-029 @FTOSD.P2
+027     @delay_ms1.P1
+027     lcd_gotoxy.x
+028     lcd_gotoxy.y
+029-02C exp.y
+029     lcd_gotoxy.address
+029-02C log.y
+029-02C fmod.i
+029     sin.@SCRATCH1
+02A-02D @DIV3232.P1
+02A     lcd_gotoxy.@SCRATCH1
+02A     sin.@SCRATCH2
+02A     @FTOSD.@SCRATCH1
+02B     lcd_send_byte.address
+02B     sin.@SCRATCH3
+02C     lcd_send_byte.n
+02C     sin.@SCRATCH4
+02D-030 log.res
+02D-030 cos.x
+02D-030 exp.res
+02D     lcd_read_byte.low
+02D     lcd_send_byte.@SCRATCH1
+02D     fmod.@SCRATCH1
+02E     lcd_read_byte.high
+02E     lcd_send_nibble.n
+02E     fmod.@SCRATCH2
+02E     @DIV3232.@SCRATCH1
+02F     lcd_read_byte.@SCRATCH1
+02F     fmod.@SCRATCH3
+02F     @DIV3232.@SCRATCH2
+030     fmod.@SCRATCH4
+030     @DIV3232.@SCRATCH3
+031-034 log.r
+031-034 floor.x
+031-034 ceil.x
+031-034 exp.r
+031-034 cos.y
+031     @DIV3232.@SCRATCH4
+032     @DIV3232.@SCRATCH5
+035-038 cos.t
+035-038 log.y2
+035-038 CEIL_FLOOR.x
+035     exp.n
+036.0   exp.s
+037     exp.@SCRATCH1
+038     exp.@SCRATCH2
+039     log.n
+039     CEIL_FLOOR.n
+039-03C cos.t2
+039     exp.@SCRATCH3
+03A-03D CEIL_FLOOR.y
+03A     exp.@SCRATCH4
+03A     log.@SCRATCH1
+03B-03C @SITOF.P1
+03B     log.@SCRATCH2
+03C     log.@SCRATCH3
+03D     cos.quad
+03D     log.@SCRATCH4
+03E-041 @DIVFF.P1
+03E     cos.i
+03E-041 CEIL_FLOOR.res
+03F-042 cos.frac
+042-045 @DIVFF.P1
+042-043 CEIL_FLOOR.l
+043-056 cos.p
+044.0   CEIL_FLOOR.s
+045     CEIL_FLOOR.@SCRATCH1
+046     CEIL_FLOOR.@SCRATCH2
+046     @DIVFF.@SCRATCH1
+047     CEIL_FLOOR.@SCRATCH3
+047     @DIVFF.@SCRATCH2
+048     CEIL_FLOOR.@SCRATCH4
+048     @DIVFF.@SCRATCH3
+049     @DIVFF.@SCRATCH4
+04A     @DIVFF.@SCRATCH5
+04B     @DIVFF.@SCRATCH6
+057-05A @SFTOI.P1
+057-05A @FLT.P2
+057     cos.@SCRATCH1
+058     cos.@SCRATCH2
+059     cos.@SCRATCH3
+05A     cos.@SCRATCH4
+05B-05E @ADDFF.P1
+05B-05E @FLT.P2
+05B-05C @ITOF.P3
+05B-05E @MULFF.P4
+05F-062 @MULFF.P1
+05F-062 @ADDFF.P2
+05F     @FLT.@SCRATCH1
+060     @FLT.@SCRATCH2
+063     @MULFF.@SCRATCH1
+063     @ADDFF.@SCRATCH1
+064     @MULFF.@SCRATCH2
+064     @ADDFF.@SCRATCH2
+065     @MULFF.@SCRATCH3
+065     @ADDFF.@SCRATCH3
+066     @ADDFF.@SCRATCH4
+067     @ADDFF.@SCRATCH5
+068     @ADDFF.@SCRATCH6
+069     @ADDFF.@SCRATCH7
+06A     @ADDFF.@SCRATCH8
+F81     kbd
+F83     PSP_DATA
+F83     lcd
+F8C     lcdlat
+F95     lcdtris
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  KEYS.call
+000014  KEYS.data
+000024  @const851.call
+000034  @const861.call
+00003C  @const865.call
+000040  @const877.call
+000044  @const881.call
+000048  @const885.call
+000054  @delay_ms1
+00007C  lcd_send_nibble
+000094  lcd_read_nibble
+0000A0  lcd_read_byte
+0000DE  lcd_send_byte
+000118  lcd_init
+000190  kbd_init
+000194  lcd_gotoxy
+0001B6  lcd_putc
+000206  @PSTRINGC_672
+000226  kbd_getc
+0002E4  @goto10681
+000306  @MULFF
+0003F8  @ITOF
+00042E  @ADDFF
+000698  @DIV88
+0006C0  @PRINTF_D_672
+00076A  @FLT
+0007E0  @DIVFF
+00093A  @SFTOI
+000972  cos
+000CC8  sin
+000D12  @FTOSD
+000D52  @DIV3232
+000DE0  @PRINTF_L32D_672FPFPF
+000F62  tan
+000FFE  CEIL_FLOOR
+00133E  ceil
+001358  floor
+001370  fmod
+0014CE  @SITOF
+001516  log
+001872  exp
+001C44  pow
+001F20  @cinit1
+001F20  MAIN
+001F4C  @cinit2
+
+Project Directory:
+    C:\Users\SNK93\OneDrive\Escritorio\Calculadora_Cientifica\
+
+Project Files:
+    main.c                                                  [28-nov.-20 00:37  CRC=11026F6C]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\18f4550.h [12-nov.-13 13:35  CRC=5337E248]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c   [19-sep.-13 14:38  CRC=D1A6378A]
+    kbd1.c                                                  [28-nov.-20 00:37  CRC=ADACD6A8]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h  [28-sep.-12 10:35  CRC=546412C9]
+
+Source signature=8C558578
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
